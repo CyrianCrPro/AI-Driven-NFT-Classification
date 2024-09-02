@@ -1,8 +1,8 @@
 # AI NFT ANALYZER
 
-This repository is the result of my intership at fxhash.
+This repository is the result of my work at fxhash.
 
-It contains my intership project subdivided in 4 different approaches, all of them aim to get, from an ai model, information about a given nft.
+It contains my intership project subdivided in 4 different approaches. All of them aim to ask an ai model information about a given nft from the fxhash.xyz website.
 
 ## Features
 
