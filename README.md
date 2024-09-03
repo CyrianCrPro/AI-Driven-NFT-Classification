@@ -6,7 +6,7 @@ The project focuses on the classification of NFTs using various methods, primari
 
 - [Classification by Color](ClassificationbyColor/README.md): Categorizing NFTs based on their color schemes.
 - [Classification by Tag](ClassificationbyTag/README.md): Categorizing NFTs based on their associated tags.
-- [Algorithm Detection](AlgorithmDetection/README.md): A custom-trained AI model analyzes the NFTs to suggest keywords that likely indicate the generative algorithms used.
+- [Algorithm Detection](AlgorithmDetection/README.md): A custom-trained AI model analyzes the NFTs to suggest keywords that indicate the generative algorithms used.
 - [Descriptive Model](DescriptiveModel/README.md): Using CLIP and BLIP models to generate short, descriptive summaries of the images.
 
 ## Project Goals
