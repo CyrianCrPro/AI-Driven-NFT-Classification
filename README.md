@@ -1,10 +1,21 @@
-# AI NFT ANALYZER
+# NFT Classification Project
 
-This repository is the result of my work at fxhash.
+This repository is the result of my work at fxhash and contains my intership project subdivided in 4 different approaches.
 
-It contains my intership project subdivided in 4 different approaches. All of them aim to ask an ai model information about a given nft from the fxhash.xyz website.
+The project focuses on the classification of NFTs using various methods, primarily leveraging visual information. Each classification approach is organized separately in the GitHub repository, named according to the specific method or result. The approaches include:
 
-The project is mostly in python using jupyter notebook.
+- [Classification by Color](ClassificationbyColor/README.md): Categorizing NFTs based on their color schemes.
+- [Classification by Tag](ClassificationbyTag/README.md): Categorizing NFTs based on their associated tags.
+- [Algorithm Detection](AlgorithmDetection/README.md): A custom-trained AI model analyzes the NFTs to suggest keywords that likely indicate the generative algorithms used.
+- [Descriptive Model](DescriptiveModel/README.md): Using CLIP and BLIP models to generate short, descriptive summaries of the images.
+
+## Project Goals
+
+**Support for Artists:** By suggesting relevant tags, artists can enhance their artwork's visibility when uploading to marketplaces.
+**Improved Navigation:** Enables better search functionality on marketplaces by filling in missing tags or suggesting additional ones that authors might overlook.
+**Market Insights:** Provides an overview of trends in the NFT marketplace by applying the models to a broader collection of artworks.
+
+Mostly in python using jupyter notebook.
 
 ## Features
 
