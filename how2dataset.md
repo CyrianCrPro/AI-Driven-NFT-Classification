@@ -13,17 +13,19 @@ The dataset consists of images labeled with a filename and a set of descriptive 
 - **Expand Algorithm Variety:** Adding images generated from other algorithms (e.g., Julia sets, DLA, or agent-based models) would increase the dataset's diversity, allowing the model to learn a broader spectrum of visual patterns.
 - **Increase Descriptive Tags:** Introduce more detailed and varied tags beyond the current set to cover subtle differences in patterns and structures. This can help the model differentiate between similar-looking images and refine its feature extraction capabilities.
 
-<div style="display: flex; justify-content: space-around;">
-    <div>
-        <p>**Algorithm A: Perlin Noise** **Algorithm B: Reaction Diffusion**</p>
-        <img src="images/algorithm_a.png" alt="Algorithm A Output" width="300">
-        <img src="images/algorithm_b.png" alt="Algorithm B Output" width="300">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <div style="width: 48%; display: flex; flex-direction: column; align-items: center;">
+        <p><strong>Algorithm A: Perlin Noise</strong></p>
+        <img src="images/algorithm_a.png" alt="Algorithm A Output" style="width: 100%; object-fit: contain;">
+        <img src="images/result_algorithm_a.png" alt="Result A on Model" style="width: 100%; object-fit: contain; margin-top: 10px;">
     </div>
-    <div>
-        <img src="images/result_algorithm_a.png" alt="Result A on Model" width="300">
-        <img src="images/result_algorithm_b.png" alt="Result B on Model" width="300">
+    <div style="width: 48%; display: flex; flex-direction: column; align-items: center;">
+        <p><strong>Algorithm B: Reaction Diffusion</strong></p>
+        <img src="images/algorithm_b.png" alt="Algorithm B Output" style="width: 100%; object-fit: contain;">
+        <img src="images/result_algorithm_b.png" alt="Result B on Model" style="width: 100%; object-fit: contain; margin-top: 10px;">
     </div>
 </div>
+
 
 ### 2. Improve Label Quality
 - **Standardize Tagging:** Ensure that tags are consistent and standardized across all images. Maintaining uniform spelling and avoiding overlaps or redundant tags will help reduce noise in training data.
