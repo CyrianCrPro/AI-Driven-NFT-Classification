@@ -15,13 +15,12 @@ The dataset consists of images labeled with a filename and a set of descriptive 
 
 <div style="display: flex; justify-content: space-around;">
     <div>
-        <p>**Algorithm A: Perlin Noise**</p>
+        <p>**Algorithm A: Perlin Noise** **Algorithm B: Reaction Diffusion**</p>
         <img src="images/algorithm_a.png" alt="Algorithm A Output" width="300">
-        <img src="images/result_algorithm_a.png" alt="Result A on Model" width="300">
+        <img src="images/algorithm_b.png" alt="Algorithm B Output" width="300">
     </div>
     <div>
-        <p>**Algorithm B: Reaction Diffusion**</p>
-        <img src="images/algorithm_b.png" alt="Algorithm B Output" width="300">
+        <img src="images/result_algorithm_a.png" alt="Result A on Model" width="300">
         <img src="images/result_algorithm_b.png" alt="Result B on Model" width="300">
     </div>
 </div>
