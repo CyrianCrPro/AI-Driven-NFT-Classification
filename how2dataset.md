@@ -13,18 +13,13 @@ The dataset consists of images labeled with a filename and a set of descriptive 
 - **Expand Algorithm Variety:** Adding images generated from other algorithms (e.g., Julia sets, DLA, or agent-based models) would increase the dataset's diversity, allowing the model to learn a broader spectrum of visual patterns.
 - **Increase Descriptive Tags:** Introduce more detailed and varied tags beyond the current set to cover subtle differences in patterns and structures. This can help the model differentiate between similar-looking images and refine its feature extraction capabilities.
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <div style="width: 48%; display: flex; flex-direction: column; align-items: center;">
-        <p><strong>Algorithm A: Perlin Noise</strong></p>
-        <img src="images/algorithm_a.png" alt="Algorithm A Output" style="width: 100%; object-fit: contain;">
-        <img src="images/result_algorithm_a.png" alt="Result A on Model" style="width: 100%; object-fit: contain; margin-top: 10px;">
-    </div>
-    <div style="width: 48%; display: flex; flex-direction: column; align-items: center;">
-        <p><strong>Algorithm B: Reaction Diffusion</strong></p>
-        <img src="images/algorithm_b.png" alt="Algorithm B Output" style="width: 100%; object-fit: contain;">
-        <img src="images/result_algorithm_b.png" alt="Result B on Model" style="width: 100%; object-fit: contain; margin-top: 10px;">
-    </div>
-</div>
+### Impact of Diverse Algorithm Outputs
+
+| Algorithm | Output | Model Result |
+|-----------|--------|--------------|
+| **Algorithm A: Perlin Noise** | ![Algorithm A Output](images/algorithm_a.png) | ![Result A on Model](images/result_algorithm_a.png) |
+| **Algorithm B: Reaction Diffusion** | ![Algorithm B Output](images/algorithm_b.png) | ![Result B on Model](images/result_algorithm_b.png) |
+
 
 
 ### 2. Improve Label Quality
