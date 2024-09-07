@@ -1,6 +1,6 @@
 # NFT Classification Project 🖼️
 
-This repository is the result of my work at fxhash and contains my intership project subdivided in 4 different approaches.
+This repository is the result of my work at fxhash and contains my internship project subdivided in 4 different approaches.
 
 ![Header Image](images/header.webp)
 
@@ -10,7 +10,6 @@ This repository is the result of my work at fxhash and contains my intership pro
 3. [Project Goals](#-project-goals)
 4. [Tools and Models](#-tools-and-models)
 5. [Glossary of Key Terms](#-glossary-of-key-terms)
-
 
 ## 📜 Project Overview
 **AI-Driven NFT Classification!**  
@@ -25,7 +24,7 @@ The project focuses on the classification of NFTs using various methods, primari
 ## 🎯 Project Goals
 - **🎨 Support for Artists:** Enhance visibility with relevant tag suggestions, empowering artists on FXHASH.
 - **🕵️ Improved Navigation:** Boost search functionality by filling in missing tags and suggesting additional ones.
-- **📊 Market Insights:** Analyze trends across FXHASH by applying the models to a broader collection of artworks..
+- **📊 Market Insights:** Analyze trends across FXHASH by applying the models to a broader collection of artworks.
 
 ## 🛠️ Tools and Models
 - **🐍 Python 3.7**
