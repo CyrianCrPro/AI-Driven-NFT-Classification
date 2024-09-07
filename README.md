@@ -1,42 +1,40 @@
-# NFT Classification Project
+# NFT Classification Project 🖼️
 
 This repository is the result of my work at fxhash and contains my intership project subdivided in 4 different approaches.
 
-The project focuses on the classification of NFTs using various methods, primarily leveraging visual information. Each classification approach is organized separately in the GitHub repository, named according to the specific method or result. The approaches include:
+![Header Image](images/header.webp)
 
-- [Classification by Color](ClassificationbyColor/README.md): Categorizing NFTs based on their color schemes.
-- [Classification by Tag](ClassificationbyTag/README.md): Categorizing NFTs based on their associated tags.
-- [Algorithm Detection](AlgorithmDetection/README.md): A custom-trained AI model analyzes the NFTs to suggest keywords that indicate the generative algorithms used.
-- [Descriptive Model](DescriptiveModel/README.md): Using CLIP and BLIP models to generate short and accurate description of the images.
+## 📚 Table of Contents
+1. [Project Overview](#project-overview)
+2. [Classification Approaches](#classification-approaches)
+3. [Project Goals](#project-goals)
+4. [Tools and Models](#tools-and-models)
+5. [Glossary of Key Terms](#glossary-of-key-terms)
+6. [Get Involved](#get-involved)
 
-## Project Goals
+## 📜 Project Overview
+**AI-Driven NFT Classification!**  
+The project focuses on the classification of NFTs using various methods, primarily leveraging visual information. Each classification approach is organized separately in the GitHub repository, named according to the specific method or result.
 
-**Support for Artists:** By suggesting relevant tags, artists can enhance their artwork's visibility when uploading to marketplaces.
-**Improved Navigation:** Enables better search functionality on marketplaces by filling in missing tags or suggesting additional ones that authors might overlook.
-**Market Insights:** Provides an overview of trends in the NFT marketplace by applying the models to a broader collection of artworks.
+## 🔍 Classification Approaches
+- 🎨 **[Classification by Color](ClassificationbyColor/README.md):** Categorizes NFTs based on their color schemes.
+- 🏷️ **[Classification by Tag](ClassificationbyTag/README.md):** Categorizes NFTs based on their associated tags.
+- 🤖 **[Algorithm Detection](AlgorithmDetection/README.md):** Uses AI to detect the generative algorithms behind NFTs, providing insights into the creative process.
+- 📜 **[Descriptive Model](DescriptiveModel/README.md):** Employs CLIP and BLIP models to generate concise and accurate descriptions of NFTs.
 
-Mostly done in python using jupyter notebook.
+## 🎯 Project Goals
+- **🎨 Support for Artists:** Enhance visibility with relevant tag suggestions, empowering artists on FXHASH.
+- **🕵️ Improved Navigation:** Boost search functionality by filling in missing tags and suggesting additional ones.
+- **📊 Market Insights:** Analyze trends across FXHASH by applying the models to a broader collection of artworks..
 
-## Libraries used
+## 🛠️ Tools and Models
+- **🐍 Python 3.7**
+- **🖼️ CLIP & BLIP:** For generating descriptions that capture the essence of each NFT.
+- **🧠 ResNet-50:** A deep learning model for visual classification.
+- **📝 Word2Vec & spaCy:** To handle text processing and keyword extraction.
 
-- Python 3.7
-
-
-## Models used
-
-- CLIP
-- BLIP
-- ResNet-50
-- Word2Vec
-- spaCy
-
-
-## Useful definitions
-
-- **Epoch**: One complete pass through the entire training dataset by the model. During an epoch, the model processes each batch of data, learns patterns, and updates its weights.
-
-- **Precision**: Percentage of correctly predicted positive results out of all predictions the model made for the positive class. It measures how many of the items predicted as positive are actually positive.
-
-- **Recall (or Sensitivity)**: Percentage of correctly predicted positive results out of all actual positive cases in the dataset. It measures how well the model identifies all the true positive instances.
-
-- **F1 Score**: Harmonic mean of precision and recall. It provides a balanced measure that considers both precision and recall, especially useful when the dataset has an uneven class distribution or when one metric is more important than the other.
+## 📖 Glossary of Key Terms
+- **🕰️ Epoch:** A full cycle through the dataset during training.
+- **✅ Precision:** How many positive predictions are correct.
+- **📈 Recall:** How well the model identifies true positives.
+- **⚖️ F1 Score:** Balances precision and recall for uneven datasets.
