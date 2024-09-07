@@ -6,11 +6,11 @@ This repository is the result of my work at fxhash and contains my intership pro
 
 ## 📚 Table of Contents
 1. [Project Overview](#project-overview)
-2. [Classification Approaches](#classification-approaches)
-3. [Project Goals](#project-goals)
-4. [Tools and Models](#tools-and-models)
-5. [Glossary of Key Terms](#glossary-of-key-terms)
-6. [Get Involved](#get-involved)
+2. [Classification Approaches](#-classification-approaches)
+3. [Project Goals](#-project-goals)
+4. [Tools and Models](#-tools-and-models)
+5. [Glossary of Key Terms](#-glossary-of-key-terms)
+
 
 ## 📜 Project Overview
 **AI-Driven NFT Classification!**  
