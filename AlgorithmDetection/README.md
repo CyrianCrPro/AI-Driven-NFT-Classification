@@ -23,4 +23,4 @@ The approach described here uses a model that generates outputs strictly based o
 
 For comprehensive image descriptions and object detection, alternatives like the Google Vision API and BLIP offer more advanced capabilities. These tools can recognize a wide array of objects and provide detailed compositions of images. However, it's important to note that they are not specifically designed to detect generative algorithms. As a result, when tasked with identifying generative algorithms, these services may often fail or provide less relevant outputs compared to the targeted model used in this approach.
 
-**[Descriptive Model](DescriptiveModel/README.md):**
+**[Descriptive Model](DescriptiveModel/README.md)**
