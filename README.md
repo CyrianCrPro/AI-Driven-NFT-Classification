@@ -171,4 +171,39 @@ To enhance the performance and capabilities of the current implementation, consi
 - **Scalability:** Optimize the codebase for deployment on cloud platforms (e.g., AWS, Google Cloud, Azure) with GPU support to handle large-scale data efficiently.
 - **API Integration:** Develop RESTful APIs or other interfaces to integrate the model into existing workflows, making it accessible for broader use.
 
-These improvements aim to refine the current approach, enhancing both model performance and the overall robustness of the system. 
+These improvements aim to refine current approaches, enhancing both model performance and the overall robustness of the system.
+
+## ⚠️ Known Caveats and Possible Issues
+
+When using this project, be aware of the following caveats and potential issues:
+
+### 1. Overfitting and Underfitting
+- **Overfitting Risk:** The model may overfit if the training dataset is not sufficiently representative or if the model is trained for too many epochs. This can result in poor generalization to new, unseen data.
+- **Underfitting Risk:** Insufficient training or overly simplistic models may lead to underfitting, where the model fails to capture underlying patterns in the data.
+
+### 2. Dataset Limitations
+- **Representation:** The dataset needs to adequately represent every algorithm; otherwise, the model may become biased towards the more prevalent algorithms.
+- **Labeling Quality:** Current dataset labels may not be optimal, which can impact the performance and accuracy of the model. Improved labeling strategies and more balanced data distribution are recommended.
+- **Content Quantity:** Additional data content is required to enhance model training and ensure robustness. Refer to the [how2dataset.md](./how2dataset.md) for guidance on improving the dataset.
+
+### 3. Resource Constraints
+- **High Resource Consumption:** Training models with a high number of epochs can significantly increase computational resource demands, including GPU memory and processing time. Plan resources accordingly, especially when scaling up.
+- **Cloud API Costs:** If using external services like cloud vision or other APIs, be aware that costs can escalate quickly with high-volume requests. Monitor usage to manage expenses.
+
+### 4. API Limitations
+- **FXHash API:** The FXHash API may have limitations, such as only displaying the last 50 projects. This information is based on current understanding and may change; always check the latest API documentation for updates.
+
+### 5. Model Viability
+- **Output Monitoring:** The current model does not guarantee 100% accuracy or reliability. It is crucial to monitor and validate each output before applying them in critical applications to ensure correctness.
+
+### 6. Model and Integration Issues
+- **Compatibility:** Ensure that all dependencies are up to date and compatible with each other, particularly when integrating multiple models or using complex ensemble methods.
+- **Version Control:** Keep track of model versions and training configurations, as inconsistencies can lead to unexpected results or degraded performance.
+
+### 7. Performance
+- **Performance Variability:** Model performance may vary across different environments, hardware configurations, or data conditions, which should be tested thoroughly.
+
+### 8. External Dependencies
+- **Dependency Stability:** Relying on external libraries or APIs introduces the risk of changes or deprecations that could affect the project’s functionality. Regular updates and checks are recommended to maintain compatibility.
+  
+These known issues should be taken into account when deploying and using the model.
