@@ -12,6 +12,7 @@ This repository is the result of my work at fxhash and contains my internship pr
 5. [Glossary of Key Terms](#-glossary-of-key-terms)
 6. [System Requirements](#-system-requirements)
 7. [Possible Improvements](#-possible-improvements)
+8. [Known Caveats and Possible Issues](#-known-caveats-and-possible-issues)
 
 ## 📜 Project Overview
 **AI-Driven NFT Classification!**  
