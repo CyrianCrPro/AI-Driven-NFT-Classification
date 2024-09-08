@@ -62,22 +62,22 @@ The project focuses on the classification of NFTs using various methods, primari
 
 - **🕰️ Epoch:** A complete pass through the entire training dataset. One epoch involves feeding all training data into the model once.
 - **✅ Precision:** The ratio of correctly predicted positive observations to the total predicted positives. Precision is a measure of a model's exactness.
-  
-  \[
-  \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
-  \]
+
+<pre>
+Precision = True Positives / (True Positives + False Positives)
+</pre>
 
 - **📈 Recall (Sensitivity):** The ratio of correctly predicted positive observations to all the observations in the actual class. It measures a model's ability to find all relevant cases.
 
-  \[
-  \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
-  \]
+<pre>
+Recall = True Positives / (True Positives + False Negatives)
+</pre>
 
 - **⚖️ F1 Score:** The harmonic mean of precision and recall, providing a balanced measure that considers both false positives and false negatives.
 
-  \[
-  \text{F1 Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
-  \]
+<pre>
+F1 Score = 2 × (Precision × Recall / Precision + Recall)
+</pre>
 
 - **🔍 K-Fold Cross-Validation:** A resampling procedure used to evaluate machine learning models on a limited data sample. The dataset is split into 'k' smaller sets, and the model is trained and validated 'k' times, each time using a different fold as the validation set.
   
