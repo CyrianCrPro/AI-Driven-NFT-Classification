@@ -10,6 +10,8 @@ This repository is the result of my work at fxhash and contains my internship pr
 3. [Project Goals](#-project-goals)
 4. [Tools and Models](#-tools-and-models)
 5. [Glossary of Key Terms](#-glossary-of-key-terms)
+6. [System Requirements](#-system-requirements)
+7. [Possible Improvements](#-possible-improvements)
 
 ## 📜 Project Overview
 **AI-Driven NFT Classification!**  
@@ -89,3 +91,84 @@ F1 Score = 2 × (Precision × Recall / Precision + Recall)
 
 - **⚙️ Adam Optimizer:** An adaptive learning rate optimization algorithm used for training deep learning models, known for its efficiency and effectiveness.
 
+## 🖥️ System Requirements
+
+To run the provided codes efficiently, ensure your system meets the following hardware and software requirements:
+
+### 1. Hardware Requirements
+
+- **GPU:**
+  - **NVIDIA GPU with CUDA support:** Required for accelerating deep learning model training and inference.
+  - **Minimum GPU Memory:** 8 GB or higher (recommended for larger models and batch sizes).
+- **CPU:**
+  - **Multi-core CPU:** At least a quad-core processor to handle data loading, pre-processing, and other tasks.
+- **RAM:**
+  - **Minimum:** 16 GB RAM.
+  - **Recommended:** 32 GB or higher, especially for large datasets or multiple models.
+- **Storage:**
+  - **SSD:** Recommended for faster data loading and saving.
+  - **Minimum Free Space:** 50 GB, depending on dataset and model size.
+
+### 2. Software Requirements
+
+- **Operating System:**
+  - **Linux (Ubuntu 18.04 or newer):** Preferred for better compatibility with CUDA and PyTorch.
+  - **Windows 10/11** or **macOS:** Supported but may require additional configuration for GPU acceleration.
+- **Libraries**
+  - **PyTorch:** Version 1.7 or higher with CUDA support.
+  - **CUDA Toolkit:** Version compatible with your PyTorch installation (commonly CUDA 10.2 or newer).
+
+### 3. Configuration and Environment Setup
+
+- **CUDA and cuDNN:**
+  - Ensure correct versions are installed to match the PyTorch version (refer to PyTorch's official installation guide for compatibility).
+- **Python Virtual Environment:**
+  - Use `virtualenv`, `conda`, or another environment manager to isolate dependencies.
+  
+### 4. Network Requirements
+
+- **Internet Connection:**
+  - Required for downloading pre-trained models (e.g., ResNet-50, CLIP, BLIP) and dependencies from package managers.
+  
+### 5. Additional Recommendations
+
+- **Docker (Optional):**
+  - For creating a reproducible environment and simplifying dependency management.
+- **Jupyter Notebook (Optional):**
+  - For interactive development and testing, especially useful during experimentation.
+
+### Summary
+For optimal performance, use a system with a recent NVIDIA GPU, 32 GB of RAM, and a multi-core CPU. Ensure that CUDA and relevant Python libraries are correctly installed and configured.
+
+## 🚀 Possible Improvements
+
+To enhance the performance and capabilities of the current implementation, consider the following improvements:
+
+### 1. Model Coupling
+- **Ensemble Learning:** Use multiple models simultaneously and combine their outputs to improve prediction accuracy and robustness. This approach leverages the strengths of different models, such as combining CLIP with ResNet-50 and BLIP for richer feature extraction and more accurate keyword verification.
+- **Model Fusion:** Explore techniques like weighted averaging, stacking, or other ensemble methods to create a fused output that captures diverse aspects of the data, potentially improving the overall model performance.
+
+### 2. Improving the Dataset
+- **Data Quality and Augmentation:** Enhancing the dataset can significantly boost model performance. This includes curating high-quality data, increasing the diversity of images, and applying advanced augmentation techniques. For more details, refer to the [how2dataset.md](./how2dataset.md).
+
+### 3. Hyperparameter Tuning
+- **Optimization:** Fine-tune hyperparameters such as learning rates, batch sizes, and optimizer settings to find the best configuration for model training.
+- **Automated Tuning:** Utilize tools like Optuna, Hyperopt, or grid search methods to systematically explore hyperparameter spaces.
+
+### 4. Leveraging Transfer Learning
+- **Pre-trained Models:** Use more specialized pre-trained models (e.g., domain-specific models) that are fine-tuned on similar datasets to reduce training time and improve performance.
+- **Layer Freezing:** Experiment with freezing lower layers of the neural networks to retain learned features from large datasets while adapting the higher layers to your specific task.
+
+### 5. Advanced Evaluation Metrics
+- **Beyond F1 Score:** Implement additional evaluation metrics such as ROC-AUC, Precision-Recall AUC, or metrics specific to multi-label classification to gain deeper insights into model performance.
+- **Cross-Validation:** Extend K-Fold cross-validation to include stratified sampling to ensure balanced representation of labels across folds.
+
+### 6. Implementing Explainability
+- **Model Interpretability:** Integrate methods like Grad-CAM or SHAP to visualize and interpret model predictions, making the AI's decision-making process more transparent.
+- **User Feedback Loop:** Incorporate user feedback mechanisms to refine model predictions continuously, creating a dynamic model that learns from real-world interactions.
+
+### 7. Scaling and Deployment
+- **Scalability:** Optimize the codebase for deployment on cloud platforms (e.g., AWS, Google Cloud, Azure) with GPU support to handle large-scale data efficiently.
+- **API Integration:** Develop RESTful APIs or other interfaces to integrate the model into existing workflows, making it accessible for broader use.
+
+These improvements aim to refine the current approach, enhancing both model performance and the overall robustness of the system. 
