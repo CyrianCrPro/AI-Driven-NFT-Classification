@@ -16,3 +16,11 @@ We have :
 We use a ResNet-50 model is loaded and modified to output probabilities for the number of unique labels in the dataset.
 https://medium.com/@nitishkundu1993/exploring-resnet50-an-in-depth-look-at-the-model-architecture-and-code-implementation-d8d8fa67e46f
 https://huggingface.co/microsoft/resnet-50
+
+## ⚠️ Important Note
+
+This approach is designed to provide comprehensive image descriptions and detect a wide variety of objects (e.g., trees, animals, everyday items). It excels at offering detailed and general descriptions of image content beyond specific labels or categories, making it a versatile tool for broad image analysis.
+
+However, this approach may not be ideal for identifying specialized content, such as generative algorithms, which require a more tailored detection model. For tasks focused on detecting generative algorithms, a specialized model trained explicitly on algorithm-related data, such as the ResNet model with CLIP validation, is recommended. These models are optimized to recognize algorithmic patterns and outputs, providing more accurate results for such specific use cases.
+
+**[Algorithm Detection](../AlgorithmDetection/README.md)**
