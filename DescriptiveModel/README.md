@@ -23,4 +23,26 @@ This approach is designed to provide comprehensive image descriptions and detect
 
 However, this approach may not be ideal for identifying specialized content, such as generative algorithms, which require a more tailored detection model. For tasks focused on detecting generative algorithms, a specialized model trained explicitly on algorithm-related data, such as the ResNet model with CLIP validation, is recommended. These models are optimized to recognize algorithmic patterns and outputs, providing more accurate results for such specific use cases.
 
-**[Algorithm Detection](../AlgorithmDetection/README.md)**
+## 🏃 Execution Instructions
+
+Follow these instructions to execute the model:
+
+### 1. Execution for `5wordsDescription.ipynb`
+- This file functions similarly to the approach used in Algorithm Detection:
+  - Run the first cell to train and save the ResNet-50 model. This model is modified to output probabilities for the number of unique labels in the dataset.
+  - Subsequent cells can be run to provide an image and receive the top 5 keywords related to the image.
+  - The model identifies the algorithm used based on the predicted keywords and displays the result.
+
+### 2. Execution for BLIP and BLIP + CLIP Notebooks
+- **Independent Cell Execution:**
+  - For the BLIP and BLIP + CLIP code sections, each cell can be executed independently.
+  
+- **BLIP on a Larger Sample:**
+  - Some cells are dedicated to running BLIP on a larger sample of images. This generates a dictionary of occurrences for each description, allowing for analysis of the frequency and accuracy of descriptions across multiple images.
+
+### Additional Note:
+- **Environment Setup:** Ensure that all dependencies, including BLIP, CLIP, and ResNet-50, are properly installed and configured. Check the links provided in the root README for installation and setup instructions for each model.
+
+For tasks specifically focused on detecting generative algorithms, refer to the [Algorithm Detection](../AlgorithmDetection/README.md) approach for a more targeted model optimized for algorithmic pattern recognition.
+
+
