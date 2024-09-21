@@ -206,5 +206,8 @@ When using this project, be aware of the following caveats and potential issues:
 
 ### 8. External Dependencies
 - **Dependency Stability:** Relying on external libraries or APIs introduces the risk of changes or deprecations that could affect the project’s functionality. Regular updates and checks are recommended to maintain compatibility.
+
+### 9. Deprecated Elements
+- **Deprecated elements:** Some of the parameters used in the algorithm detection and descriptive model approaches are deprecated and could be replace.
   
 These known issues should be taken into account when deploying and using the model.
