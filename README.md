@@ -119,6 +119,8 @@ To run the provided codes efficiently, ensure your system meets the following ha
   - **PyTorch:** Version 1.7 or higher with CUDA support. [Pytorch Website](https://pytorch.org/get-started/locally/)
   - **CUDA Toolkit:** Version compatible with your PyTorch installation (commonly CUDA 10.2 or newer). [CUDA Toolkit Website](https://developer.nvidia.com/cuda-downloads)
 
+Currently, PyTorch on Windows only supports Python 3.8-3.11; Python 2.x is not supported.
+
 ### 3. Configuration and Environment Setup
 
 - **CUDA and cuDNN:**
