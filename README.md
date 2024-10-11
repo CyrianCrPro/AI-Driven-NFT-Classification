@@ -96,10 +96,10 @@ F1 Score = 2 × (Precision × Recall / Precision + Recall)
 
 To run the provided codes efficiently, ensure your system meets the following hardware and software requirements:
 
-### 1. Hardware Requirements
+### 1. Hardware Requirements (& Recommendations)
 
 - **GPU:**
-  - **NVIDIA GPU with CUDA support:** Required for accelerating deep learning model training and inference.
+  - **NVIDIA GPU with CUDA support:** Required for accelerating deep learning model training and inference. (Can work on the CPU if you don't have a GPU but this is not recommanded)
   - **Minimum GPU Memory:** 8 GB or higher (recommended for larger models and batch sizes).
 - **CPU:**
   - **Multi-core CPU:** At least a quad-core processor to handle data loading, pre-processing, and other tasks.
@@ -114,10 +114,10 @@ To run the provided codes efficiently, ensure your system meets the following ha
 
 - **Operating System:**
   - **Linux (Ubuntu 18.04 or newer):** Preferred for better compatibility with CUDA and PyTorch.
-  - **Windows 10/11** or **macOS:** Supported but may require additional configuration for GPU acceleration.
+  - **Windows 10/11** or **macOS:** Supported but may require additional configuration for GPU acceleration (Not at the moment).
 - **Libraries**
-  - **PyTorch:** Version 1.7 or higher with CUDA support.
-  - **CUDA Toolkit:** Version compatible with your PyTorch installation (commonly CUDA 10.2 or newer).
+  - **PyTorch:** Version 1.7 or higher with CUDA support. [Pytorch Website](https://pytorch.org/get-started/locally/)
+  - **CUDA Toolkit:** Version compatible with your PyTorch installation (commonly CUDA 10.2 or newer). [CUDA Toolkit Website](https://developer.nvidia.com/cuda-downloads)
 
 ### 3. Configuration and Environment Setup
 
