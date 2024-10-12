@@ -31,7 +31,7 @@ The project focuses on the classification of NFTs using various methods, primari
 
 ## 🛠️ Tools and Models
 
-- **🐍 Python 3.7:** The primary programming language used for implementing models and scripts.
+- **🐍 Python (10.8 used):** The primary programming language used for implementing models and scripts.
 - **🖼️ CLIP & BLIP:** 
   - **CLIP (Contrastive Language–Image Pretraining):** A model that matches images and text, used for verifying predicted keywords against image content.
   - **BLIP (Bootstrapping Language-Image Pretraining):** A model that generates descriptive captions for images.
@@ -116,10 +116,12 @@ To run the provided codes efficiently, ensure your system meets the following ha
   - **Linux (Ubuntu 18.04 or newer):** Preferred for better compatibility with CUDA and PyTorch.
   - **Windows 10/11** or **macOS:** Supported but may require additional configuration for GPU acceleration (Not at the moment).
 - **Libraries**
-  - **PyTorch:** Version 1.7 or higher with CUDA support. [Pytorch Website](https://pytorch.org/get-started/locally/)
-  - **CUDA Toolkit:** Version compatible with your PyTorch installation (commonly CUDA 10.2 or newer). [CUDA Toolkit Website](https://developer.nvidia.com/cuda-downloads)
+  - **PyTorch:** Version 2.4.1 (LTS) with CUDA support. [Pytorch Website](https://pytorch.org/get-started/locally/)
+  - **CUDA Toolkit:** Version compatible with your PyTorch installation. [CUDA Toolkit Website](https://developer.nvidia.com/cuda-downloads) (Not needed if you use CPU)
 
 Currently, PyTorch on Windows only supports Python 3.8-3.11; Python 2.x is not supported.
+
+The project runs on Python 3.10.8 and PyTorch CPU
 
 ### 3. Configuration and Environment Setup
 
@@ -131,7 +133,7 @@ Currently, PyTorch on Windows only supports Python 3.8-3.11; Python 2.x is not s
 ### 4. Network Requirements
 
 - **Internet Connection:**
-  - Required for downloading pre-trained models (e.g., ResNet-50, CLIP, BLIP) and dependencies from package managers.
+  - Required for downloading pre-trained models (e.g., ResNet-50, CLIP, BLIP) and dependencies from package managers. **pip install git+https://github.com/openai/CLIP.git**
   
 ### 5. Additional Recommendations
 
